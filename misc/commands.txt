@@ -1,0 +1,4 @@
+ls -l
+source ./oe-init-build-env /home/si-vm/poky/poky 
+sleep 10
+bitbake core-image-minimal

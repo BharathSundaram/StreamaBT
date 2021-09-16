@@ -1,0 +1,6 @@
+#repo init -u https://code.rdkcentral.com/r/collaboration/oem/skyworth/skyworth-mdmp-100-1s-manifests -b rdk-next -m mcg-mdmp100-firebolt-rtd1319.xml
+#repo sync -j4
+#repo download meta-rdk-mcg-hpr0a -c 488
+source meta-rdk-mcg-hpr0a/setup-environment
+bitbake skyworth-generic-mediaclient-image
+
