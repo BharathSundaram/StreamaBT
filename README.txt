@@ -1,3 +1,7 @@
+Software requirement:
+---------------------
+Python3 and bash is the required to run this package.
+
 # StreamaBT
 Auto the build process for the  Streama project
 ├── build.sh
