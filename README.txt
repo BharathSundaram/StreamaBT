@@ -10,8 +10,8 @@ Auto the build process for the  Streama project
 Above is the tree view excluding the misc folder as it is relevant to this project developers.
 ==============================================================================================
 
-
-**build.sh:**
+build.sh:
+---------
   - Core file which manages the build creation for Streama. Please find the pseudo code below for the functional flow.
     Check for disk size availablity, exit if size not available
     while read command; do
@@ -31,3 +31,7 @@ Above is the tree view excluding the misc folder as it is relevant to this proje
     done while
     
  ftp_config.cfg
+ --------------
+  - it contains ftp server, username, password. *** For security reason the values are not stored as this project is hosted in public.
+  
+  
